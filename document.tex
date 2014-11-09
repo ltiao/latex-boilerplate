@@ -1,0 +1,62 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=1in,footskip=.3in]{geometry}
+
+\linespread{1.1} % Line spacing
+
+\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
+\setlength{\parskip}{6pt}
+
+\usepackage{lipsum}
+
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+
+\usepackage{tikz}
+
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\usepackage{cleveref}
+\usepackage{microtype}
+
+\begin{document}
+\title{\LaTeX~Boilerplate Document \\ {\normalsize Optimized for the practicing computer scientist / mathematician}}
+\author{Louis Tiao}
+\date{\today}
+
+\maketitle
+
+ \lipsum[1]
+
+\end{document}
